@@ -29,6 +29,9 @@ var newInvalidRequest1 = makeRequest('http://localhost:' + newPort);
 var newInvalidRequest2 = makeRequest('http://localhost:' + newPort + '/hell');
 //check for both that response code is 404
 
+
+//need to drop ssh connection and check that all valid requests has 404 response
+
 function makeRequest (url) {
 return request(url, function (error, response, body) {
   console.log('error:', error); 

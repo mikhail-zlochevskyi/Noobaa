@@ -1,10 +1,10 @@
 {
   "name": "noobaa",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "test task",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "node test.js",
     "start": "node server.js"
   },
   "repository": {
@@ -17,7 +17,7 @@
     "url": "https://github.com/mikhail-zlochevskyi/Noobaa/issues"
   },
   "dependencies": {
-    "request": "latest"
+    "request": "latest",
     "node-ssh": "5.1.0"
   },
   "homepage": "https://github.com/mikhail-zlochevskyi/Noobaa#readme"
